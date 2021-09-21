@@ -1,0 +1,202 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;900&family=Ubuntu&display=swap');
+
+
+/* Media Query */
+@media (max-width: 1200px) {
+  .title-img {
+    transform: rotate(0);
+    right: 17em;
+  }
+}
+
+@media (max-width: 1000px) {
+
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: static;
+    width: 60%;
+  }
+
+}
+
+/* Common Style */
+
+body {
+  font-family: 'Ubuntu', 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+.placeholder-box {
+  visibility: hidden;
+}
+
+
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* Sections */
+.colored-section {
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.white-section {
+  background-color: #fff;
+}
+
+
+/* Title Section */
+
+#title {
+  text-align: left;
+}
+
+.container {
+  font-family: 'Montserrat';
+  padding: 2% 12%;
+}
+
+
+
+/* NavBar */
+
+.navbar-brand {
+  font-size: 2.5em;
+  font-family: 'Ubuntu';
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 16px;
+}
+
+/* Download Buttons */
+.dl-btn {
+  margin: 5% 3% 5% 0;
+}
+
+/* Title Image */
+.title-img {
+  width: 20%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 22em;
+}
+
+/* Features Section */
+#features {
+  padding: 8em 0;
+  position: relative;
+  background-color: white;
+}
+
+#features .card {
+  border: none;
+  width: 18em;
+  margin: 10% 0;
+}
+
+.card-title {
+  font-family: 'Montserrat';
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.card-icon {
+  color: #ef8172;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+}
+
+.card:hover .card-icon {
+  color: #ff4c68;
+}
+
+.card-text {
+  color: #8f8f8f;
+}
+
+/* Testimonials Section */
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 10%;
+}
+
+/* Press Section */
+#press {
+  text-align: center;
+  background-color: #ef8172;
+  padding: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing Section */
+#pricing {
+  padding: 100px 0;
+  text-align: center;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Call to Action Section */
+#cta {
+  text-align: center;
+  padding: 7% 0;
+}
+
+/* Footer Section */
+#footer {
+  padding-top: 7%;
+}
